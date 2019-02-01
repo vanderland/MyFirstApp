@@ -37,6 +37,8 @@ class MyFirstApp(main.Ui_Main, QtWidgets.QMainWindow):
         self.actExit.triggered.connect(self.me_close)
         self.actOpen.triggered.connect(self.me_open)
         self.lswMain.setAlternatingRowColors(True)
+        self.lswMain.currentTextChanged()
+
 
         QtCore.QObject.connect(self.lswMain, QtCore.SIGNAL("itemSelectionChanged()"), self.btnClear.hide)
 

@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'main.ui',
 # licensing of 'main.ui' applies.
 #
-# Created: Mon Jan 28 22:22:49 2019
+# Created: Wed Jan 30 20:59:20 2019
 #      by: pyside2-uic  running on PySide2 5.12.0
 #
 # WARNING! All changes made in this file will be lost!
@@ -35,22 +35,19 @@ class Ui_Main(object):
         self.gridLayout_2.setObjectName("gridLayout_2")
         self.lblPassword = QtWidgets.QLabel(self.frame)
         self.lblPassword.setObjectName("lblPassword")
-        self.gridLayout_2.addWidget(self.lblPassword, 3, 0, 1, 1)
-        self.ledLogin = QtWidgets.QLineEdit(self.frame)
-        self.ledLogin.setObjectName("ledLogin")
-        self.gridLayout_2.addWidget(self.ledLogin, 2, 1, 1, 1)
-        self.ledPassword = QtWidgets.QLineEdit(self.frame)
-        self.ledPassword.setObjectName("ledPassword")
-        self.gridLayout_2.addWidget(self.ledPassword, 3, 1, 1, 1)
+        self.gridLayout_2.addWidget(self.lblPassword, 2, 0, 1, 1)
         self.lblLogin = QtWidgets.QLabel(self.frame)
         self.lblLogin.setObjectName("lblLogin")
-        self.gridLayout_2.addWidget(self.lblLogin, 2, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.lblLogin, 1, 0, 1, 1)
+        self.ledLogin = QtWidgets.QLineEdit(self.frame)
+        self.ledLogin.setObjectName("ledLogin")
+        self.gridLayout_2.addWidget(self.ledLogin, 1, 1, 1, 1)
         self.lswMain = QtWidgets.QListWidget(self.frame)
         self.lswMain.setObjectName("lswMain")
-        self.gridLayout_2.addWidget(self.lswMain, 1, 0, 1, 2)
-        self.listView = QtWidgets.QListView(self.frame)
-        self.listView.setObjectName("listView")
-        self.gridLayout_2.addWidget(self.listView, 0, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.lswMain, 0, 0, 1, 2)
+        self.ledPassword = QtWidgets.QLineEdit(self.frame)
+        self.ledPassword.setObjectName("ledPassword")
+        self.gridLayout_2.addWidget(self.ledPassword, 2, 1, 1, 1)
         self.gridLayout_3.addLayout(self.gridLayout_2, 0, 0, 1, 2)
         self.btnAdd = QtWidgets.QPushButton(self.frame)
         self.btnAdd.setObjectName("btnAdd")
