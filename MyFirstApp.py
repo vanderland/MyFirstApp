@@ -51,9 +51,6 @@ class MyFirstApp(main.Ui_Main, QtWidgets.QMainWindow):
             item = row[1]
             self.lswMain.addItem(item)
 
-
-
-
     def me_add(self):
         # item = QtWidgets.QListWidgetItem()
         item = self.ledLogin.text() + ' ' + self.ledPassword.text()
